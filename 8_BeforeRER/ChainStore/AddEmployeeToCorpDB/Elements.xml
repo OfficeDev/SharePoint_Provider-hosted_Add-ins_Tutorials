@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="6601a902-f458-4757-9000-09f23eaa5386.AddEmployeeToCorpDB"
+                RegistrationType="List"
+                RegistrationId="100"
+                Location="CommandUI.Ribbon"
+                Sequence="10001"
+                Title="Invoke &apos;AddEmployeeToCorpDB&apos; action">
+    <CommandUIExtension>
+      <!-- 
+      Update the UI definitions below with the controls and the command actions
+      that you want to enable for the custom action.
+      -->
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.ListItem.Actions.Controls._children">
+          <Button Id="Ribbon.ListItem.Actions.AddEmployeeToCorpDBButton"
+                  Alt="Add to Corporate DB"
+                  Sequence="100"
+                  Command="Invoke_AddEmployeeToCorpDBButtonRequest"
+                  LabelText="Add to Corporate DB"
+                  TemplateAlias="o1"
+                  Image32by32="_layouts/15/images/placeholder32x32.png"
+                  Image16by16="_layouts/15/images/placeholder16x16.png" />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="Invoke_AddEmployeeToCorpDBButtonRequest"
+                          CommandAction="~remoteAppUrl/Pages/EmployeeAdder.aspx?{StandardTokens}&amp;SPListItemId={SelectedItemId}&amp;SPListId={SelectedListId}"/>
+      </CommandUIHandlers>
+    </CommandUIExtension >
+  </CustomAction>
+</Elements>

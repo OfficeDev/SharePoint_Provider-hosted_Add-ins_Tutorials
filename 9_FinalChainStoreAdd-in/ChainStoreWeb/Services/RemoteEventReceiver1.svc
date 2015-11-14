@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ChainStoreWeb.Services.RemoteEventReceiver1" CodeBehind="RemoteEventReceiver1.svc.cs" %>
