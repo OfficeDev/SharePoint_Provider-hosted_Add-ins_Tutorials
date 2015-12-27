@@ -18,15 +18,15 @@ This set of samples tracts the series of tutorials that begin at [Get started cr
 The following are the tutorial articles and the corresponding sample solutions:
 
 - [Get started creating provider-hosted SharePoint Add-ins](https://msdn.microsoft.com/EN-US/library/office/fp142381.aspx): N/A
-- [Give the add-in the SharePoint look-and-feel](): BeforeSharePointUI.sln
-- [Include a custom button in the add-in](): BeforeRibbonButton.sln
-- [Get a quick overview of the SharePoint object model](): N/A
-- [Add SharePoint write operations to the add-in](): BeforeSharePointWriteOps.sln
-- [Include an add-in Web Part in the add-in](): BeforeAdd-inPart.sln
-- [Handle add-in events in the add-in](): BeforeAdd-inEventHandlers.sln
-- [Add first-run logic to the add-in](): BeforeFirstRunLogic.sln
-- [Programmatically deploy a custom button in the add-in](): BeforeProgrammaticButton.sln
-- [Handle list item events in the add-in](): BeforeRER.sln
+- [Give the add-in the SharePoint look-and-feel](https://msdn.microsoft.com/EN-US/library/office/mt637891.aspx): BeforeSharePointUI.sln
+- [Include a custom button in the add-in](https://msdn.microsoft.com/EN-US/library/office/mt637892.aspx): BeforeRibbonButton.sln
+- [Get a quick overview of the SharePoint object model](https://msdn.microsoft.com/EN-US/library/office/mt637893.aspx): N/A
+- [Add SharePoint write operations to the add-in](https://msdn.microsoft.com/EN-US/library/office/mt637894.aspx): BeforeSharePointWriteOps.sln
+- [Include an add-in Web Part in the add-in](https://msdn.microsoft.com/EN-US/library/office/mt637896.aspx): BeforeAdd-inPart.sln
+- [Handle add-in events in the add-in](https://msdn.microsoft.com/EN-US/library/office/mt637895.aspx): BeforeAdd-inEventHandlers.sln
+- [Add first-run logic to the add-in](https://msdn.microsoft.com/EN-US/library/office/mt637897.aspx): BeforeFirstRunLogic.sln
+- [Programmatically deploy a custom button in the add-in](https://msdn.microsoft.com/EN-US/library/office/mt637898.aspx): BeforeProgrammaticButton.sln
+- [Handle list item events in the add-in](https://msdn.microsoft.com/EN-US/library/office/mt637899.aspx): BeforeRER.sln
 
 To the the complete Chain Store add-in, open FinalChainStoreAdd-in.sln
 
