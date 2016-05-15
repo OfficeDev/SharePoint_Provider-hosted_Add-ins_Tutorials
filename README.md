@@ -35,7 +35,8 @@ To the the complete Chain Store add-in, open FinalChainStoreAdd-in.sln
 12. Open **Visual Studio** as an administrator.
 13. Open the .sln file for the solution you need.
 13. In **Solution Explorer**, highlight the SharePoint add-in project and replace the **Site URL** property with the URL of your SharePoint developer site.
-14. Follow the instructions in the corresponding tutorial to add functionality to the add-in and test it.
+14. If your test SharePoint developer site is an on premises SharePoint 2013, open the AppManifest.xml file and change the SharePointMinVersion value to "15.0.0.0".
+15. Follow the instructions in the corresponding tutorial to add functionality to the add-in and test it.
 
 # Questions and comments
 
