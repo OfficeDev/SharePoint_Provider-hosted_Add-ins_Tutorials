@@ -36,7 +36,12 @@ To the the complete Chain Store add-in, open FinalChainStoreAdd-in.sln
 13. Open the .sln file for the solution you need.
 13. In **Solution Explorer**, highlight the SharePoint add-in project and replace the **Site URL** property with the URL of your SharePoint developer site.
 14. If your test SharePoint developer site is an on premises SharePoint 2013, open the AppManifest.xml file and change the SharePointMinVersion value to "15.0.0.0".
+15. The samples assume that Visual Studio is using Version 12 (SQL 2014) of SQL Express. If you have SQL Server 2016 installed on your development computer, you need to make a change to the web.config file in the solution. Find the line that sets the **SqlAzureConnectionString** near the top of the file. Change the phrase "ProjectsV12" in the value to "ProjectsV13". You will need to do this for each of the solutions in the repo.
 15. Follow the instructions in the corresponding tutorial to add functionality to the add-in and test it.
+
+# Known issues
+
+If you get a **System.Data.SqlClient.SqlException** after pressing F5 to start one of the solutions, this may be caused by having a more recent version of SQL Server installed on your development computer. For the fix, see the section above **To use these samples**.
 
 # Questions and comments
 
